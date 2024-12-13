@@ -31,7 +31,7 @@ jobs:
       - name: Install deps
         run: cd frontend && npm i
 
-      - name: Compile code
+      - name: Compile code  ..
         run: cd frontend && npm run build
 
       - name: Upload artifact
